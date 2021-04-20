@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Última semana http</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+    <body>
+    <!--    Cómo consumir de una API -->
+        <div class="container mt-5">
+            <div class="row" id="questions-container">
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row" id="categories-container">
+
+            </div>
+        </div>
+    </body>
+<script src="index.js"></script>
+</html>
+
+
+<!-- 
+    
+    Esta es la estrucutura de la respuesta
+    
+    {  
+        
+        response_code: 0, 
+        results: [
+            category: "General Knowledge"
+            correct_answer: "Green"
+            difficulty: "easy"
+            incorrect_answers: [
+                "Red",
+                "Blue",
+                "Yellow"]
+            length: 3
+            __proto__: [ ]
+            question: "When one is &quot;envious&quot;, they are said to be what color?"
+            type: "multiple"
+        ]
+    }
+-->
